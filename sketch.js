@@ -20,17 +20,17 @@ var ground_img, track_img;
 var bronze_img, silver_img, gold_img;
 
 function preload() {
-  car1_img = loadImage("Images/car1.png");
-  car2_img = loadImage("Images/car2.png");
-  car3_img = loadImage("Images/car3.png");
-  car4_img = loadImage("Images/car4.png");
+  car1_img = loadImage("car1.png");
+  car2_img = loadImage("car2.png");
+  car3_img = loadImage("car3.png");
+  car4_img = loadImage("car4.png");
 
-  ground_img = loadImage("Images/ground.png");
-  track_img = loadImage("Images/track.png");
+  ground_img = loadImage("ground.png");
+  track_img = loadImage("track.png");
 
-  bronze_img = loadImage("Images/bronze.png");
-  silver_img = loadImage("Images/silver.png");
-  gold_img = loadImage("Images/gold.png");
+  bronze_img = loadImage("bronze.png");
+  silver_img = loadImage("silver.png");
+  gold_img = loadImage("gold.png");
 }
 function setup() {
   //create the canvas
